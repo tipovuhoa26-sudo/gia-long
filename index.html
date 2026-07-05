@@ -370,6 +370,26 @@
             border-top: 1px solid var(--border-color);
             padding-top: 20px;
         }
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .container { padding: 15px; }
+            .header h1 { font-size: 22px; }
+            .bod-view-list { grid-template-columns: 1fr; }
+            .grid-2-cols { grid-template-columns: 1fr; }
+            .info-list li { flex-direction: column; }
+            .info-list li strong { margin-bottom: 5px; }
+            table.survey-table { display: block; overflow-x: auto; white-space: nowrap; }
+            .speaker-section { padding: 15px; }
+            .executive-summary { padding: 15px; }
+            .bod-view-box { padding: 15px; }
+            .phase-section { padding: 15px; }
+            .phase-box { padding: 15px; }
+            .control-box { padding: 15px; }
+            .scope-box { padding: 15px; }
+            .layer-box { padding: 15px; }
+            .value-section { padding: 15px; }
+        }
     </style>
 </head>
 <body>
